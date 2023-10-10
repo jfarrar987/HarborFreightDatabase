@@ -1,2 +1,0 @@
-# HarborFreightDatabase
-product-database
