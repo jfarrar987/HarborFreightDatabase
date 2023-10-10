@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+@import "@fontsource/alfa-slab-one";
+
+/*Body Format*/
+body {
+  background: #f2f2f2;
+  color: #333;
+  font-family: "Nunito";
+}
+
+/*Header 1 Format*/
+h1{
+  margin:0;
+}
+
+/*Text format for class a*/
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+/*Format for content class*/
+.content {
+  width: 60%;
+  margin: 0 auto;
+}
+
+/*Nav Format*/
+nav {
+    margin: 10px auto 80px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-bottom: 1px solid #ddd;
+}
+
+nav a{
+    margin-left: 14px;
+}
+
+nav .logo{
+    margin-right: auto;
+}
+
+/*Footer Format*/
+footer {
+    display: block;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 60px;
+    color: #777;
+    border-top: 1px solid #eaeaea;
+  }
+
+/*Item Description text format (Paragraph)*/
+.ItemDescription p{
+    font-size: 24pt;
+    color:green
+  }
+
+/*TODO: find proper class demonination for next/Link */
+.ItemDescription :any-link{
+  color:blue;
+  text-decoration: underline;
+}
+
+/*Item Description image format*/
+.ItemDescription img{
+  margin:auto
+}
+
+.SearchPage{
+  width: 100%;
+  margin:auto;
+}
+.SearchBar{
+  width: 80%;
+  align-items: center;
+  padding-left: 25%;
+  /*display: flex;*/
+}
+/* TODO: align form class SearchBar to center */
+.SearchBar button{  
+  font-family: 'Nunito';
+  font-size: 13pt;
+  font-weight: bold;
+  height: 45px;
+  width: 70px;
+}
+
+.SearchBar input{
+  font-family: 'Nunito';
+  font-weight: bold;
+  width: 60%;
+  height: 40px;
+  font-size: large;
+
+}
+
+.GridContainer{
+  padding-top: 10px;
+  padding-left: 15%;
+  display: grid;
+  grid-template-columns: 265px 265px 265px 265px;
+  grid-template-rows: auto;
+}
+
+.Card{
+  font-family: Nunito;
+  font-size: 16pt;
+  margin: 8px;
+  align-items: center;
+  border: 1px solid;
+}
+
+.Card p{
+  align-items: bottom;
+  font-size: 18pt;
+  font-weight: bold;
+  color:green
+}
+
+.Card img{
+  align-content: center;
+}
+.itemPageLink{
+  font-size: 18pt;
+  font-weight: bold;
+}
+.itemPageLink:hover{
+  text-decoration: underline;
+}
+
+/*Paragraph text formatting for About class (About Page paragraph format)*/
+.About p{
+  font-weight: bolder;
+}
+
+/*Header Level 2 text formatting for homePage class (Home Page h2 format)*/
+.homePage h2{
+  color:#0059a8;
+}
+
+/*class a href text formatting*/
+.homePage a{
+  font-weight: bold;
+  text-decoration: underline;
+  color:blue;
+}
+
+/*Header Level 1 text formatting for logo class (Logo h1 format)*/
+.logo h1{
+  font-family: "Alfa Slab One";
+  font-weight: 300;
+  color: #cd2215;
+}
